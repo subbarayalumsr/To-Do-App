@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<form method="POST">
+    <input type="text" name="title" value="{{ task.title }}" required>
+    <button type="submit">Update Task</button>
+</form>
+{% endblock %}
